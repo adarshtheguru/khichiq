@@ -792,8 +792,10 @@ footer {
 				}
 			}
 			.logo{
-				>div{
-					justify-content: center;
+				@media ($max640) { 
+					>div{
+						justify-content: center;
+					}
 				}
 			}
 			@media ($max992) {
