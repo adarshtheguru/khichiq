@@ -5,7 +5,9 @@
       .bar3{width: 60% !important;}*/
 /* NAV LINKS COMPRESS ANIM ------------------------------------------------- */
 /*Footer Section*/
-
+* {
+	-webkit-tap-highlight-color: transparent;
+  }
 html {
 	padding: 0;
 	margin: 0;
@@ -644,6 +646,7 @@ header.active {
 .home-banner {
 	background-image: url($imgpath+'photographer.webp');
 	background-size:contain;
+	// background-size:60% 100%;
 	background-position: top right;
 }
 .bar1 {
@@ -689,18 +692,57 @@ header.active {
 footer {
 	float: left;
 	width: 100%;
-	color: $color_3;
+	// color: $white;
 	a {
-		color: $color_3;
+		color: $white;
 	}
-	.upper {
-		background-color: $background-color_6;
-		padding: 10px 0;
+	&.padding{
+		padding: 70px 0;
 	}
-	.lower {
-		background-color: $background-color_7;
-		padding: 10px 0;
-		font-size: 12px;
+	&.bg-darkblue{
+		background-color: $darkb;
+	}
+	.footergrid{
+		display: grid;
+		grid-template-columns: 40% auto;
+		align-items: end;
+		.firstcol{
+			.madeinindia{
+				font-weight: 500;
+				color: #dadada;
+				font-size: 10px;
+			}
+			.address{
+				color: #c4c4c4;
+				margin: 30px 0;
+			}
+			.contact{
+				color: #c4c4c4;
+				a{
+					color: #c4c4c4;
+				}
+			}
+		}
+		.secondcol{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			font-weight: 500;
+			.nav1, .nav2, .nav3{
+				display: flex;
+				flex-direction: column;
+				gap: 20px 0;
+			}
+			.nav3{
+				.sm{
+					display: grid;
+					grid-template-columns: 20% auto;
+				}
+			}
+		}
+	}
+	.copytxt{
+		margin: 40px 0 0px;
+		color: #C4C4C4;
 	}
 }
 .sc{
@@ -714,9 +756,54 @@ footer {
 	text-align: center;
 	margin: 20px 0;
 }
+.theme-btn-wrapper{
+	margin: 50px 0;
+}
+.theme-btn{
+	border: 1px solid #4A8AF8;
+	padding: 14px 32px;
+	border-radius: 26px;
+}
 // banner 
 .section-first{
 	background-color: #030303;
+	.home-banner-cont{
+		position: absolute;
+		top: 20px;
+		color: $white;
+		z-index: 2;
+		top: 50%;
+		transform: translateY(-50%);
+		.banner-data{
+			.prefix{
+				margin-bottom: 20px;
+			}
+			.title{
+				font-size: 48px;
+				font-weight: 600;
+				line-height: 60px;
+				text-align: left;
+				margin-bottom: 20px;
+			}
+			.content{
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 28px;
+				text-align: left;
+
+			}
+			.theme-btn-wrapper{
+				margin: 40px 0 30px;
+				.theme-btn{
+					max-width:200px;
+					padding: 14px 24px;
+					color:$white;
+					background-color: #4A8AF8;
+				}
+			}
+		}
+
+	}
 }
 // banner 
 
@@ -748,6 +835,68 @@ footer {
 // features 
 .features{
 	background-color: $black;
+	.TextSliderWrapper{
+		.slick-track{
+			transform: translateZ(0) !important; //volatile code. bydefault slick slider goes above
+		}
+		.slick-list{
+			overflow: visible !important; //volatile code for the slider height adjustment
+		}
+		.slide{
+			cursor: pointer;
+			border-top: 1px solid #363636;
+			border-bottom: 1px solid #363636;
+			&:first-of-type{
+				border-top: none;
+			}
+
+			.title{
+				font-size: 32px;
+				font-weight: 500;
+				line-height: 46px;
+				color: $white;
+				margin: 20px 0;
+			}
+			.hidedesc{
+				display: none;
+				padding: 20px 0;
+				color: #c4c4c4;
+				transition: all 0.3s ease-in-out;
+				.theme-btn-wrapper{
+					margin: 40px 0 10px;
+					.theme-btn{
+						color: $white;
+						font-weight: 500;
+					}
+				}
+			}
+			&.slick-current{
+				.title{
+					color: $lb !important;
+				}
+				.hidedesc{
+					display: block;
+					transition: all 0.3s ease-in-out;
+				}
+			}
+		}
+	}
+	.secondcol{
+		.featureSliderWrapper{
+			background-color: #001333;
+			border-radius: 32px;
+			width: 85%;
+			margin: auto;
+			text-align: center;
+			padding-top: 40px;
+			.slide{
+				img{
+					max-width: 298px;
+					margin: auto;
+				}
+			}
+		}
+	}
 }
 // features 
 
@@ -760,10 +909,14 @@ footer {
 // builtwith 
 .builtwith{
 	background-color: $black;
+	&.padding{
+		padding: 70px 0 0;
+	}
 	.builtwithWrapper{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 0 50px;
+		padding-top: 40px;
 		.item{
 			display: grid;
 			grid-template-columns: auto;
@@ -788,9 +941,65 @@ footer {
 	background-color: $black;
 	.reviewSliderWrapper{
 		margin: 30px 0;
+		// .slick-slider{
+		// 	margin-left: 90px !important;
+		// }
 		.slick-slide{
 			margin: 0 20px;
+			margin-left: 60px;
 		}
+		// .slick-dots{
+		// 	margin-top: 30px;
+		// 	display: flex;
+		// 	justify-content: center;
+		// 	gap: 10px;
+		// 	li{
+		// 		background-color: #c4c4c4;
+		// 		text-indent: -9999px;
+		// 		width: 8px;
+		// 		height: 8px;
+		// 		border-radius: 100%;
+		// 		transition: all 0.3s ease-in-out;
+		// 		&.slick-active{
+		// 			background-color: $lb;
+		// 			width: 30px;
+		// 			border-radius: 8px;
+		// 		}
+		// 		&::marker{
+		// 			font-size: 0;
+		// 		}
+		// 	}
+		// }
+		.slide{
+			.box{
+				border: 1px solid $lb;
+				border-radius: 24px;
+				padding: 20px 16px;
+				display: grid;
+				gap: 20px 0;
+				min-width: 355px;
+				// height: auto;
+				min-height: 290px;
+				.clientinfo{
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					.clientdata{
+						display: flex;
+						align-items: center;
+						gap: 0 10px;
+						.clientimg{
+							width: 60px;
+							height: 60px;
+							border: 2px solid $lb;
+							border-radius: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	.reviewdots{
 		.slick-dots{
 			margin-top: 30px;
 			display: flex;
@@ -803,6 +1012,7 @@ footer {
 				height: 8px;
 				border-radius: 100%;
 				transition: all 0.3s ease-in-out;
+				cursor: pointer;
 				&.slick-active{
 					background-color: $lb;
 					width: 30px;
@@ -813,37 +1023,114 @@ footer {
 				}
 			}
 		}
-		.slide{
-			.box{
-				border: 1px solid $lb;
-				border-radius: 24px;
-				padding: 20px 16px;
-				display: grid;
-				gap: 20px 0;
-				// width: 380px;
-				// height: auto;
-				.clientinfo{
-					display: flex;
-					align-items: center;
-					justify-content: space-between;
-					.clientdata{
-						display: flex;
-						align-items: center;
-						gap: 0 10px;
-						.clientimg{
-							width: 80px;
-							height: 80px;
-							border: 2px solid $lb;
-							border-radius: 100%;
-						}
-					}
-				}
-			}
-		}
 	}
 
 }
 // reviews 
+
+// khichiquer 
+
+.khichiquer{
+	background-color: $black;
+	&.padding{
+		padding: 50px 0;
+	}
+	.container{
+		background-color: $darkb;
+		border-radius: 32px;
+		padding: 50px 80px;
+	}
+}
+// khichiquer 
+
+// answers
+.answers{
+	background-color: $black;
+	.qaAccordWrapper{
+		width: 80%;
+		margin: auto;
+		.qaAccord{
+			ul.accordion-list {
+				position: relative;
+				display: block;
+				width: 100%;
+				height: auto;
+				padding: 20px;
+				margin: 0;
+				list-style: none;
+				background-color: none;
+				
+				li {
+				  position: relative;
+				  display: block;
+				  width: 100%;
+				  height: auto;
+				  background-color: none;
+				  padding: 30px;
+				  margin: 0 auto 0px auto;
+				  border-top: 1px solid #363636;
+				  border-bottom: 1px solid #363636;
+				  cursor: pointer;
+		
+				  &:first-of-type{
+					border-top: none;
+				  }
+				  
+				  &.active {
+					h3 {
+					  &:after {
+						content: url($imgpath+'blue-up.webp');
+					  }
+					}
+				  }
+				  
+				  h3 {
+					font-weight: 700;
+					position: relative;
+					display: block;
+					width: 100%;
+					height: auto;
+					padding: 0 0 0 0;
+					margin: 0;
+					font-size: 24px;
+					letter-spacing: 0.01em;
+					cursor: pointer;
+					
+					&:after {
+					  content: url($imgpath+'blue-down.webp');
+					  position: absolute;
+					  right: 0;
+					  top: 0;
+					  transition: all 0.3s ease-in-out;
+					}
+				  }
+				  
+				  div.answer {
+					position: relative;
+					display: block;
+					width: 100%;
+					height: auto;
+					margin: 0;
+					padding: 0;
+					cursor: pointer;
+					
+					p {
+					  position: relative;
+					  display: block;
+					  font-weight: 300;
+					  padding: 20px 0 0 0;
+					  cursor: pointer;
+					  line-height: 150%;
+					  margin: 0 0 15px 0;
+					//   font-size: 14px;
+					}
+				  }
+				}
+			  }
+		}
+	}
+} 
+// answers 
 /* ------------------------------ text animation code starts ---------------------------  */
 .revealOnScroll {
 	opacity: 0;

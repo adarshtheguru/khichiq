@@ -2,7 +2,24 @@
 
 	<section class="section-first" id="link1">
 		<div class="row">
-			<div class="col-12 col-xs-12 banner_ht bg-cover home-banner">
+			<div class="col-12 banner_ht bg-cover home-banner pos-rel">
+				<div class="containerleft">
+					<div class="home-banner-cont">
+						<div class="banner-data">
+							<div class="prefix">Your All-In-One</div>
+							<div class="title">
+								Mobile 1st Photography <br> Business App
+							</div>
+							<div class="content">
+								Manage your Orders, Events, Payments & <br> Team effortlessly via App!
+							</div>
+							<div class="theme-btn-wrapper">
+								<a href="javascript:;" class="theme-btn">Get FREE Access</a>
+							</div>
+							<div class="closingtxt">A platform designed for your GROWTH!</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -56,6 +73,75 @@
 		<div class="container">
 			<div class="row">
 				<h2 class="secTitle text-center">Key Features of <span class="sc">KHICHIQ</span></h2>
+
+				<div class="col-6">
+					<div class="TextSliderWrapper">
+						<div class="TextSlider">
+							<div class="slide">
+								<div class="title">Lead Your Team Like a PRO!</div>
+								<div class="hidedesc">
+									<div class="content">
+										Powerful team and order management tool designed for photographers
+									</div>
+									<div class="theme-btn-wrapper">
+										<a href="javascript:;" class="theme-btn">TRY NOW!</a>
+									</div>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="title">Seamless Financial Management</div>
+								<div class="hidedesc">
+									<div class="content">
+										Powerful team and order management tool designed for photographers
+									</div>
+									<div class="theme-btn-wrapper">
+										<a href="javascript:;" class="theme-btn">TRY NOW!</a>
+									</div>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="title">Collaborate with Freelancers</div>
+								<div class="hidedesc">
+									<div class="content">
+										Powerful team and order management tool designed for photographers
+									</div>
+									<div class="theme-btn-wrapper">
+										<a href="javascript:;" class="theme-btn">TRY NOW!</a>
+									</div>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="title">Business Analyatics on your Fingertips</div>
+								<div class="hidedesc">
+									<div class="content">
+										Powerful team and order management tool designed for photographers
+									</div>
+									<div class="theme-btn-wrapper">
+										<a href="javascript:;" class="theme-btn text-white">TRY NOW!</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 secondcol">
+					<div class="featureSliderWrapper">
+						<div class="featureSlider">
+							<div class="slide">
+								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
+							</div>
+							<div class="slide">
+								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
+							</div>
+							<div class="slide">
+								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
+							</div>
+							<div class="slide">
+								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -125,20 +211,20 @@
 							<div class="box text-white">
 								<div class="clientinfo">
 									<div class="clientdata">
-										<div class="clientimg flex align-center justify-center">
-											<img class="img-responsive" src="assets/images/testimg.webp" alt="client1">
+										<div class="flex align-center justify-center">
+											<img class="img-responsive clientimg" src="assets/images/ninad.webp" alt="client1">
 										</div>
 										<div class="clientname">
-											<h3>John Doe</h3>
-											<p>Photographer</p>
+											<h3>Ninad</h3>
+											<p>Alpha Cinema</p>
 										</div>
 									</div>
 									<div>
-										<img src="./assets/images/instagram.svg" alt="logo">
+										<img src="./assets/images/appstore.webp" alt="logo">
 									</div>
 								</div>
 								<div class="content">
-								Khichiq is built by photographers, for photographers just like you! We ve worked and gathered feedback of more than 100 photographers to give you the...
+									Khichiq is built by photographers, for photographers just like you! We’ve worked and gathered feedback of more than 100 photographers to give you the...
 								</div>
 							</div>
 						</div>
@@ -146,20 +232,20 @@
 							<div class="box text-white">
 								<div class="clientinfo">
 									<div class="clientdata">
-										<div class="clientimg flex align-center justify-center">
-											<img class="img-responsive" src="assets/images/testimg.webp" alt="client1">
+										<div class="flex align-center justify-center">
+											<img class="img-responsive clientimg" src="assets/images/surbhi.webp" alt="client1">
 										</div>
 										<div class="clientname">
-											<h3>John Doe</h3>
-											<p>Photographer</p>
+											<h3>Surbhi</h3>
+											<p>Surbhi’s Portraits</p>
 										</div>
 									</div>
 									<div>
-										<img src="./assets/images/instagram.svg" alt="logo">
+										<img src="./assets/images/playstore.webp" alt="logo">
 									</div>
 								</div>
 								<div class="content">
-								Khichiq is built by photographers, for photographers just like you! We ve worked and gathered feedback of more than 100 photographers to give you the...
+									Khichiq is built by photographers, for photographers just like you! We’ve worked and gathered feedback of more than...
 								</div>
 							</div>
 						</div>
@@ -167,20 +253,20 @@
 							<div class="box text-white">
 								<div class="clientinfo">
 									<div class="clientdata">
-										<div class="clientimg flex align-center justify-center">
-											<img class="img-responsive" src="assets/images/testimg.webp" alt="client1">
+										<div class="flex align-center justify-center">
+											<img class="img-responsive clientimg" src="assets/images/sankalp.webp" alt="client1">
 										</div>
 										<div class="clientname">
-											<h3>John Doe</h3>
-											<p>Photographer</p>
+											<h3>Sankalp</h3>
+											<p>Superb Weddings</p>
 										</div>
 									</div>
 									<div>
-										<img src="./assets/images/instagram.svg" alt="logo">
+										<img src="./assets/images/insta-round.webp" alt="logo">
 									</div>
 								</div>
 								<div class="content">
-								Khichiq is built by photographers, for photographers just like you! We ve worked and gathered feedback of more than 100 photographers to give you the...
+									Khichiq is built by photographers, for photographers just like you!
 								</div>
 							</div>
 						</div>
@@ -188,41 +274,20 @@
 							<div class="box text-white">
 								<div class="clientinfo">
 									<div class="clientdata">
-										<div class="clientimg flex align-center justify-center">
-											<img class="img-responsive" src="assets/images/testimg.webp" alt="client1">
+										<div class="flex align-center justify-center">
+											<img class="img-responsive clientimg" src="assets/images/kiran.webp" alt="client1">
 										</div>
 										<div class="clientname">
-											<h3>John Doe</h3>
-											<p>Photographer</p>
+											<h3>Kiran</h3>
+											<p>Kiran Weddings</p>
 										</div>
 									</div>
 									<div>
-										<img src="./assets/images/instagram.svg" alt="logo">
+										<img src="./assets/images/insta-round.webp" alt="logo">
 									</div>
 								</div>
 								<div class="content">
-								Khichiq is built by photographers, for photographers just like you! We ve worked and gathered feedback of more than 100 photographers to give you the...
-								</div>
-							</div>
-						</div>
-						<div class="slide">
-							<div class="box text-white">
-								<div class="clientinfo">
-									<div class="clientdata">
-										<div class="clientimg flex align-center justify-center">
-											<img class="img-responsive" src="assets/images/testimg.webp" alt="client1">
-										</div>
-										<div class="clientname">
-											<h3>John Doe</h3>
-											<p>Photographer</p>
-										</div>
-									</div>
-									<div>
-										<img src="./assets/images/instagram.svg" alt="logo">
-									</div>
-								</div>
-								<div class="content">
-								Khichiq is built by photographers, for photographers just like you! We ve worked and gathered feedback of more than 100 photographers to give you the...
+									Khichiq is built by photographers, for photographers just like you!
 								</div>
 							</div>
 						</div>
@@ -230,13 +295,69 @@
 				</div>
 			</div>
 		</div>
+		<div class="container text-center">
+			<div class="reviewdots"></div>
+		</div>
 	</section>
 
-	<section class="padding" id="about">
+	<section class="padding khichiquer" id="khichiquer">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 banner_ht">
-					<p>about</p>
+				<h2 class="secTitle text-center">Be a <span class="sc">KHICHIQUER!</span></h2>
+				<p class="para text-white text-center">
+					Don't miss the opportunity to revolutionise how you manage your photography business. Join us on this exciting journey as we redefine the standard for photography business management.
+				</p>
+				<div class="text-center theme-btn-wrapper">
+					<a href="javascript:;" class="theme-btn text-center text-white text-bold">JOIN COMMUNITY</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="padding answers" id="answers">
+		<div class="container">
+			<div class="row">
+				<h2 class="secTitle text-center"><span class="sc">ANSWERS</span> to your Basic Questions...</h2>
+
+				<div class="qaAccordWrapper">
+					<div class="qaAccord">
+						<ul class="accordion-list">
+							<li>
+							  <h3 class="text-center text-white">What is Khichiq?</h3>
+							  <div class="answer text-white text-center">
+								<p>We are looking for early adopters who can try out and use our new app for themselves.</p>
+								  
+							  </div>
+							</li>
+							<li>
+								<h3 class="text-center text-white">Why choose Khichiq?</h3>
+								<div class="answer text-white text-center">
+								  <p>We are looking for early adopters who can try out and use our new app for themselves.</p>
+								</div>
+							</li>
+							<li>
+								<h3 class="text-center text-white">What benefits will I be getting?</h3>
+								<div class="answer text-white text-center">
+								  <p>We are looking for early adopters who can try out and use our new app for themselves.</p>
+								</div>
+							</li>
+							<li>
+								<h3 class="text-center text-white">Does it cost money?</h3>
+								<div class="answer text-white text-center">
+								  <p>We are looking for early adopters who can try out and use our new app for themselves.</p>
+								</div>
+							</li>
+							<li>
+								<h3 class="text-center text-white">How Khichiq will help my business to grow?</h3>
+								<div class="answer text-white text-center">
+								  <p>We are looking for early adopters who can try out and use our new app for themselves.</p>
+								</div>
+							</li>
+						  </ul>
+					</div>
+				</div>
+				<div class="text-center theme-btn-wrapper">
+					<a href="javascript:;" class="theme-btn text-center text-white text-bold">VISIT FAQs</a>
 				</div>
 			</div>
 		</div>
