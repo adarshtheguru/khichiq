@@ -4,10 +4,8 @@
 	<meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<title>Place icons/anchor tags/elemenst around circular container</title>
-	<!--[if lt IE 9]>
-	  <script src="dist/html5shiv.js"></script>
-	<![endif]-->
+	<title>Khichiq Website</title>
+	<link rel="icon" type="image/x-icon" href="assets/images/starlogo.svg">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -47,7 +45,7 @@
 								<a href="javascript:;" rel="location" data-event-category="Header" data-event-action="Click" data-event-name="Location">Location</a>
 								<a href="javascript:;" rel="about" data-event-category="Header" data-event-action="Click" data-event-name="about">About</a>
 								<a href="tel:+910123456789" id="hid-on-mob" class="call-icon"><span><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"/></svg></span>+910123456789</a> -->
-								<a href="javascript:;" class="enquire-btn enq_click" id="hid-on-mob" data-event-category="Header" data-event-action="Click" data-event-name="Enquire Now">Enquire Now</a>
+								<a href="javascript:;" class="enquire-btn enq_click" id="hid-on-mob" data-event-category="Header" data-event-action="Click" data-event-name="Enquire Now">Get FREE Access</a>
 							</div>
 						</div>
 					</div>

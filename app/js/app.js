@@ -128,15 +128,115 @@ $(document).ready(function(){
 
 		// slicks 
 
+		$('.TextSlider').slick({
+			slidesToShow:4,
+			infinite: false,
+			vertical:true,
+			asNavFor: '.featureSlider',
+			focusOnSelect: true,
+			autoplay:false,
+			draggable:false,
+		});
+		$('.featureSlider').slick({
+			vertical:true,
+			slidesToShow:1,
+			autoplay:true,
+			arrows:false,
+			asNavFor: '.TextSlider',
+			focusOnSelect: true,
+		});
 		$('.reviewSlider').slick({
 			dots: true,
+			appendDots: '.reviewdots',
 			arrows: false,
-			// infinite: true,
+			infinite: true,
 			speed: 300,
 			slidesToShow: 3,
-			centerMode: true,
-			centerPadding: '130px',
+			// centerMode: true,
+			// centerPadding: "10px",
+			responsive: [
+				{
+					breakpoint: 1920,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						centerMode: false,
+						centerPadding: "0px",
+					}
+				},
+				{
+					breakpoint: 1600,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						centerMode: false,
+						centerPadding: "0px",
+					}
+				},
+				{
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						centerMode: false,
+						centerPadding: "0px",
+					}
+				},
+				{
+					breakpoint: 700,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						centerMode: false,
+						centerPadding: "0px",
+					}
+				}
+			]
 		  });
+
+		//accordian
+
+		$('.accordion-list > li > .answer').hide();
+		$('.accordion-list > li').click(function() {
+		if ($(this).hasClass("active")) {
+			$(this).removeClass("active").find(".answer").slideUp();
+		} else {
+			$(".accordion-list > li.active .answer").slideUp();
+			$(".accordion-list > li.active").removeClass("active");
+			$(this).addClass("active").find(".answer").slideDown();
+		}
+		return false;
+		});
+
+		// Volatile code for the slider height adjustment
+
+
+		// Function to adjust slider height dynamically
+		function adjustSliderHeight() {
+			$('.TextSlider .slick-slide').each(function() {
+			if ($(this).hasClass('slick-current')) {
+				var currentHeight = $(this).find('.hidedesc').outerHeight();
+				$('.TextSlider .slick-list').css('height', currentHeight + 'px');
+			}
+			});
+		}
+		  setTimeout(function() {
+			// Initial height adjustment
+			adjustSliderHeight();
+		  }, 100);
+		
+		  // Adjust height on slide change
+		  $('.TextSlider').on('afterChange', function(event, slick, currentSlide) {
+			// console.log('afterChange');
+			adjustSliderHeight();
+		  });
+		
+		  // Adjust height on window resize
+		  $(window).on('resize', function() {
+			adjustSliderHeight();
+		  });
+		  // Volatile code for the slider height adjustment
+
 
 			/*------------------- animation js----------------------------------------*/
 
