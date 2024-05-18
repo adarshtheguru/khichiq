@@ -1,8 +1,14 @@
 <?php include "header.php" ?>
 
-	<section class="section-first" id="link1">
+	<section class="section-first pos-rel banner_ht bg-cover home-banner" id="link1">
+			<div class="qrWrapper text-center hidden-md">
+				<div class="qrdata">
+					<p>Get the App Now!</p>
+					<img class="img-responsive" src="assets/images/qr-sanner.webp" alt="QR">
+				</div>
+			</div>
 		<div class="row">
-			<div class="col-12 banner_ht bg-cover home-banner pos-rel">
+			<div class="col-12">
 				<div class="containerleft">
 					<div class="home-banner-cont">
 						<div class="banner-data">
@@ -14,7 +20,7 @@
 								Manage your Orders, Events, Payments & <br> Team effortlessly via App!
 							</div>
 							<div class="theme-btn-wrapper">
-								<a href="javascript:;" class="theme-btn">Get FREE Access</a>
+								<a href="javascript:;" class="open-form theme-btn">Get FREE Access</a>
 							</div>
 							<div class="closingtxt">A platform designed for your GROWTH!</div>
 						</div>
@@ -35,7 +41,7 @@
 								<img src="assets/images/whyus1.svg" alt="whyus1">
 							</div>
 							<div class="content">
-								Unique Dashboard for business overview
+								Unique Dashboard <br class="visible-xs"> for business overview
 							</div>
 						</div>
 						<div class="item">
@@ -43,7 +49,7 @@
 								<img src="assets/images/whyus2.svg" alt="whyus2">
 							</div>
 							<div class="content">
-							Build & Manage your photography team
+							Build & Manage <br class="visible-xs"> your photography team
 							</div>
 						</div>
 						<div class="item">
@@ -51,7 +57,7 @@
 								<img src="assets/images/whyus3.svg" alt="whyus3">
 							</div>
 							<div class="content">
-							Track everything from lead to events
+							Track everything <br class="visible-xs"> from lead to events
 							</div>
 						</div>
 						<div class="item">
@@ -59,7 +65,7 @@
 								<img src="assets/images/whyus4.svg" alt="whyus4">
 							</div>
 							<div class="content">
-							Unique Dashboard for business overview
+							Unique Dashboard <br class="visible-xs"> for business overview
 							</div>
 						</div>
 					</div>
@@ -74,70 +80,82 @@
 			<div class="row">
 				<h2 class="secTitle text-center">Key Features of <span class="sc">KHICHIQ</span></h2>
 
-				<div class="col-6">
+				<div class="col-6 col-sm-12">
 					<div class="TextSliderWrapper">
 						<div class="TextSlider">
 							<div class="slide">
-								<div class="title">Lead Your Team Like a PRO!</div>
+								<div class="title">Lead Your Team <br class="visible-xs"> Like a PRO!</div>
 								<div class="hidedesc">
 									<div class="content">
 										Powerful team and order management tool designed for photographers
 									</div>
-									<div class="theme-btn-wrapper">
-										<a href="javascript:;" class="theme-btn">TRY NOW!</a>
+									<div class="theme-btn-wrapper hidden-sm">
+										<a href="javascript:;" class="open-form theme-btn">TRY NOW!</a>
+									</div>
+									<div class="visible-sm featuremob">
+										<img src="assets/images/feature-mob-1.webp" alt="iphone" class="img-responsive">
 									</div>
 								</div>
 							</div>
 							<div class="slide">
-								<div class="title">Seamless Financial Management</div>
+								<div class="title">Seamless <br class="visible-xs"> Financial Management</div>
 								<div class="hidedesc">
 									<div class="content">
-										Powerful team and order management tool designed for photographers
+										Track income, expenses, and taxes like a pro.
 									</div>
-									<div class="theme-btn-wrapper">
-										<a href="javascript:;" class="theme-btn">TRY NOW!</a>
+									<div class="theme-btn-wrapper hidden-sm">
+										<a href="javascript:;" class="open-form theme-btn">TRY NOW!</a>
+									</div>
+									<div class="visible-sm featuremob">
+										<img src="assets/images/feature-mob-2.webp" alt="iphone" class="img-responsive">
 									</div>
 								</div>
 							</div>
 							<div class="slide">
-								<div class="title">Collaborate with Freelancers</div>
+								<div class="title">Collaborate with <br class="visible-xs">	 Freelancers</div>
 								<div class="hidedesc">
 									<div class="content">
-										Powerful team and order management tool designed for photographers
+										Unite! Find, Connect, and Thrive.
 									</div>
-									<div class="theme-btn-wrapper">
-										<a href="javascript:;" class="theme-btn">TRY NOW!</a>
+									<div class="theme-btn-wrapper hidden-sm">
+										<a href="javascript:;" class="open-form theme-btn">TRY NOW!</a>
+									</div>
+									<div class="visible-sm featuremob">
+										<img src="assets/images/feature-mob-3.webp" alt="iphone" class="img-responsive">
 									</div>
 								</div>
 							</div>
 							<div class="slide">
-								<div class="title">Business Analyatics on your Fingertips</div>
+								<div class="title">Business Analyatics <br class="visible-xs"> on your Fingertips</div>
 								<div class="hidedesc">
 									<div class="content">
-										Powerful team and order management tool designed for photographers
+										Say goodbye to boring spreadsheets and hello to insightful business analytics
 									</div>
-									<div class="theme-btn-wrapper">
-										<a href="javascript:;" class="theme-btn text-white">TRY NOW!</a>
+									<div class="theme-btn-wrapper hidden-sm">
+										<a href="javascript:;" class="open-form theme-btn">TRY NOW!</a>
+									</div>
+									<div class="visible-sm featuremob">
+										<img src="assets/images/feature-mob-4.webp" alt="iphone" class="img-responsive">
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-6 secondcol">
+				<div class="col-6 secondcol hidden-sm">
 					<div class="featureSliderWrapper">
 						<div class="featureSlider">
 							<div class="slide">
 								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
-								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
+								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
 								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
-								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
+								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
 							</div>
 						</div>
 					</div>
@@ -308,7 +326,7 @@
 					Don't miss the opportunity to revolutionise how you manage your photography business. Join us on this exciting journey as we redefine the standard for photography business management.
 				</p>
 				<div class="text-center theme-btn-wrapper">
-					<a href="javascript:;" class="theme-btn text-center text-white text-bold">JOIN COMMUNITY</a>
+					<a href="javascript:;" class="theme-btn open-form text-center text-white text-bold">JOIN COMMUNITY</a>
 				</div>
 			</div>
 		</div>
@@ -322,9 +340,9 @@
 				<div class="qaAccordWrapper">
 					<div class="qaAccord">
 						<ul class="accordion-list">
-							<li>
+							<li class="active">
 							  <h3 class="text-center text-white">What is Khichiq?</h3>
-							  <div class="answer text-white text-center">
+							  <div class="answer text-white text-center" style="display: block;">
 								<p>We are looking for early adopters who can try out and use our new app for themselves.</p>
 								  
 							  </div>
@@ -357,7 +375,7 @@
 					</div>
 				</div>
 				<div class="text-center theme-btn-wrapper">
-					<a href="javascript:;" class="theme-btn text-center text-white text-bold">VISIT FAQs</a>
+					<a href="./faq.php" target="_blank" class="theme-btn text-center text-white text-bold">VISIT FAQs</a>
 				</div>
 			</div>
 		</div>

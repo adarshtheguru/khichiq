@@ -20,9 +20,9 @@
 					</div>
 					<div class="contact">
 						<div class="mail">
-							<a href="javascript:;">hello@khichiq.com</a>
+							<a href="mailto:hello@khichiq.com">hello@khichiq.com</a>
 						</div>
-						<div class="whatsapp">Whatsapp - <a href="javascript:;">63 62 30 62 63</a></div>
+						<div class="whatsapp">Whatsapp - <a href="https://wa.me/6362306263" target="_blank">63 62 30 62 63</a></div>
 					</div>
 				</div>
 				<div class="secondcol">
@@ -45,28 +45,28 @@
 							<a href="javascript:;">Blogs</a>
 						</div>
 						<div>
-							<a href="javascript:;">Privacy Policy</a>
+							<a href="./privacy-policy.php" target="_blank">Privacy Policy</a>
 						</div>
 						<div>
-							<a href="javascript:;">Terms & Conditions</a>
+							<a href="./terms-conditions.php" target="_blank">Terms & Conditions</a>
 						</div>
 					</div>
 					<div class="nav3">
-						<div>
+						<div class="hidden-xs">
 							<p class="text-white">Follow us on</p>
 						</div>
-						<div class="sm">
+						<a href="javascript:;" class="sm">
 							<img src="assets/images/instagram.svg" alt="instagram">
-							<a href="javascript:;">Instagram</a>
-						</div>
-						<div class="sm">
+							<p class="hidden-xs">Instagram</p>
+						</a>
+						<a href="javascript:;" class="sm">
 							<img src="assets/images/facebook.svg" alt="instagram">
-							<a href="javascript:;">Facebook</a>
-						</div>
-						<div class="sm">
+							<p class="hidden-xs">Facebook</p>
+						</a>
+						<a href="javascript:;" class="sm">
 							<img src="assets/images/twitter.svg" alt="instagram">
-							<a href="javascript:;">X</a>
-						</div>
+							<p class="hidden-xs">X</p>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 				<a href="tel:+911234567890" class="mob-call-btn"><span class="">+91 1234 5678 90</span></a>
 			</div>
 			<div class="col-6">
-				<a href="javascript:;" class="mob_enq_click mob-enq-btn" data-event-category="Footer" data-event-action="Click" data-event-name="Enquire Now">Enquire Now</a>
+				<a href="javascript:;" class="open-form mob-enq-btn">Get FREE Access</a>
 			</div>
 		</div>
 	</div>

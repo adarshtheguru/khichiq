@@ -263,11 +263,11 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 			padding: 10px 0;
 			top: 55px;
 		}
-		.brand-logo {
-			img {
-				width: 90px;
-			}
-		}
+		// .brand-logo {
+		// 	img {
+		// 		width: 90px;
+		// 	}
+		// }
 		.form-container {
 			position: fixed !important;
 			left: 0 !important;
@@ -320,15 +320,15 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 			line-height: 30px;
 		}
 		a.mob-enq-btn {
-			background-color: $background-color_1;
-			color: $color_1;
+			background-color: $darkb;
+			color: $white;
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 14px;
 		}
 		a.mob-call-btn {
-			background-color: $background-color_2;
-			color: $color_3;
+			background-color: $black;
+			color: $white;
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 14px;
