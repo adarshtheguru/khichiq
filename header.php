@@ -9,6 +9,7 @@
 	  <script src="dist/html5shiv.js"></script>
 	<![endif]-->
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
 	
@@ -18,10 +19,20 @@
 		<div class="container pos-rel">
 			<div class="row">
 				<div id="comp-logo">
-					<div class="pull-left col-2 col-xs-9 brand-logo">
+					<div class="pull-left col-3 col-xs-9 brand-logo">
 						<!-- <a href="javascript:;" class="goto-home"><img src="https://dummyimage.com/150X70/6b6b6b/fff.png&text=logo" class="img-responsive" data-event-category="Header" data-event-action="Click" data-event-name="Logo"></a> -->
+						<a href="javascript:;" class="goto-home">
+							<div class="flex align-center">
+								<div class="flex align-center justify-center gap-x-10">
+									<div>
+										<img src="./assets/images/starlogo.svg" alt="Logo">
+									</div>
+									<div class="text-white">KHICHIQ <span class="madeinindia">| PROUDLY MADE IN INDIA</span></div>
+								</div>
+							</div>
+						</a>
 					</div>
-					<div class="col-10 col-xs-3 pull-right">
+					<div class="col-9 col-xs-3 pull-right">
 						<div class="pull-right menu-icon-mobile">
 							<span class="bar1"></span>
 							<span class="bar2"></span>
