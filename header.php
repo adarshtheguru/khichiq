@@ -76,7 +76,7 @@
 				<div class="qr-scanner">
 					<img class="img-responsive" src="assets/images/qr-code-2.webp" alt="QR">
 				</div>
-				<div class="theme-btn-wrapper">
+				<div class="theme-btn-wrapper clicktoshareWraper">
 					<a href="javascript:;" class="theme-btn clicktoshare" data-url="https://www.khichiq.com/">SHARE WITH FRIENDS</a>
 				</div>
 				<div class="closingtxtWrapper">
