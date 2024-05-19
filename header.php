@@ -17,7 +17,7 @@
 		<div class="container pos-rel">
 			<div class="row">
 				<div id="comp-logo">
-					<div class="pull-left col-3 col-xs-9 brand-logo">
+					<div class="pull-left col-3 col-sm-5 col-xs-9 brand-logo">
 						<!-- <a href="javascript:;" class="goto-home"><img src="https://dummyimage.com/150X70/6b6b6b/fff.png&text=logo" class="img-responsive" data-event-category="Header" data-event-action="Click" data-event-name="Logo"></a> -->
 						<a href="javascript:;" class="goto-home">
 							<div class="flex align-center">
@@ -30,7 +30,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-9 col-xs-3 pull-right">
+					<div class="col-9 col-sm-7 col-xs-3 pull-right">
 						<div class="pull-right menu-icon-mobile" style="display: none;">
 							<span class="bar1"></span>
 							<span class="bar2"></span>
