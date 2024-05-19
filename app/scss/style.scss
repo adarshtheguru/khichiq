@@ -1045,8 +1045,10 @@ footer {
 					display: block;
 				}
 				.content{
+					min-height: 52px;
 					@media ($max992) {
 						text-align: center;
+						min-height: unset;
 					}
 				}
 				.theme-btn-wrapper{
