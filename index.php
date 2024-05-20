@@ -17,10 +17,10 @@
 								Mobile 1st Photography <br> Business App
 							</div>
 							<div class="content">
-								Manage your Orders, Events, Payments & <br> Team effortlessly via App!
+								Manage your Orders, Events, <br class="visible-xs">Payments & <br class="hidden-xs"> Team effortlessly via App!
 							</div>
 							<div class="theme-btn-wrapper">
-								<a href="javascript:;" class="open-form theme-btn">Get FREE Access</a>
+								<a href="javascript:;" class="open-form theme-btn text-uppercase">GET FREE ACCESS</a>
 							</div>
 							<div class="closingtxt">A platform designed for your GROWTH!</div>
 						</div>
@@ -184,7 +184,7 @@
 	<section class="padding builtwith" id="builtwith">
 		<div class="container">
 			<div class="row">
-				<h2 class="text-center secTitle">Built with <span class="sc">100+</span> Photographers</h2>
+				<h2 class="text-center secTitle">Built with <br class="visible-xs"><span class="sc">100+</span> Photographers</h2>
 				<div class="builtwithWrapper">
 					<div class="item">
 						<div class="title">

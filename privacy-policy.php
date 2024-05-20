@@ -1,70 +1,11 @@
 <?php include "header.php" ?>
-<style type="text/css">
-	.page-title{
-		background-color: #001333;
-		padding: 122px 0 60px;
-	}
-	.page-title h1{
-		font-size: 48px;
-		line-height: 60px;
-		font-weight: 600;
-		color: #ffffff;
-		margin-top: 30px;
-	}
-	.service-wrap{
-		background-color: #000000;
-		padding: 70px 0px 50px;
-		color: #fff;
-	}
-	.service-wrap h2{
-		font-family: Outfit;
-		font-size: 32px;
-		font-weight: 500;
-		line-height: 46px;
-		text-align: left;
-		margin-bottom: 20px;
-
-	}
-	.service-wrap h3{
-		font-size: 20px;
-		font-weight: 600;
-		margin-top: 30px;
-	}
-	.service-wrap p{
-		font-family: Outfit;
-		font-size: 18px;
-		font-weight: 400;
-		line-height: 28px;
-		text-align: left;
-	}
-	.service-wrap a{
-		color: #fff;
-	}
-	.service-wrap ul{
-		list-style: none;
-		padding-left: 27px;
-	}
-	.service-wrap ul li{
-		position: relative;
-	}
-	.service-wrap ul li:before{
-		content: '';
-		position: absolute;
-		left: -17px;
-		top: 10px;
-		width: 4px;
-		height: 4px;
-		background-color: #fff;
-		border-radius: 100%;
-	}
-</style>
 <section class="page-title">
 	<div class="container">
-		<div class="col-6">
-			<h1>Privacy Policy</h1>
-		</div>
-		<div class="col-6 text-right">
+		<div class="col-6 col-xs-12 text-xs-center text-right pull-right">
 			<img src="./assets/images/page-info.svg">
+		</div>
+		<div class="col-6 col-xs-12 text-xs-center pull-left">
+			<h1>Privacy Policy</h1>
 		</div>
 	</div>
 </section>

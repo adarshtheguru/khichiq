@@ -50,6 +50,9 @@
 						<div>
 							<a href="./terms-conditions.php" target="_blank">Terms & Conditions</a>
 						</div>
+						<div>
+							<a href="./faq.php" target="_blank">FAQ</a>
+						</div>
 					</div>
 					<div class="nav3">
 						<div class="hidden-xs">
@@ -79,7 +82,7 @@
 	<div class="mob-footer visible-xs">
 		<div class="row">
 			<div class="col-6">
-				<a href="tel:+911234567890" class="mob-call-btn"><span class="">+91 1234 5678 90</span></a>
+				<a href="https://wa.me/6362306263" class="mob-call-btn"><span class="">63 62 30 62 63</span></a>
 			</div>
 			<div class="col-6">
 				<a href="javascript:;" class="open-form mob-enq-btn">Get FREE Access</a>
