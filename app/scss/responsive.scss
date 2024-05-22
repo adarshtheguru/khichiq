@@ -339,4 +339,33 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 	.home-banner {
 		// background-image: url('https://dummyimage.com/320X480/6b6b6b/565659&text=mobile-banner');
 	}
+	.text-xs-center{
+		text-align: center;
+	}
+	.page-title {
+		padding: 99px 0 38px;
+	}
+	.page-title h1{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.page-title img{
+		width: 80px;
+	}
+	.service-wrap h3{
+		font-size: 18px;
+	}
+	.service-wrap p{
+		font-size: 16px;
+		line-height: 24px;
+	}
+.reviews .reviewSliderWrapper .slide .box{
+		min-width: auto;
+}
+.banner-data .content{
+	color: #C4C4C4;
+}
+.builtwith .builtwithWrapper .item{
+		margin-bottom: 30px;
+}
 }
