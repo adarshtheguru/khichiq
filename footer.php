@@ -7,15 +7,16 @@
 						<div class="flex align-center">
 							<div class="flex align-center justify-center gap-x-10">
 								<div>
-									<img src="./assets/images/starlogo.svg" alt="Logo">
+									<img class="hidden-sm" src="./assets/images/khiciq-logo.webp" alt="Logo">
+									<img class="visible-sm" src="./assets/images/khiciq-logo-mob.webp" alt="Logo">
 								</div>
-								<div class="text-white">KHICHIQ <span class="madeinindia">| PROUDLY MADE IN INDIA</span></div>
+								<!-- <div class="text-white">KHICHIQ <span class="madeinindia">| PROUDLY MADE IN INDIA</span></div> -->
 							</div>
 						</div>
 					</div>
 					<div class="address">
 						<p>
-							B201, Konark Business Park <br> Magarpatta Road 4, Phase II <br> Pune 400121, Maharashtra, India
+							Sri Emerald Business Park <br> Outer ring road, Marathahalli <br> Bangalore 560037, Karnataka, India
 						</p>
 					</div>
 					<div class="contact">

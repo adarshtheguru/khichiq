@@ -140,7 +140,7 @@ $(document).ready(function(){
 		$('.clicktoshare').click(function (x) {
 			x.preventDefault();
 			$('.clicktoshareWraper').hide()
-			$('.closingtxtWrapper').css('display', 'flex');
+			$('.closingtxtWrapper').css('display', 'flex').fadeOut(5000);
 
 			var copyText = $(this).attr('data-url');
 
@@ -162,7 +162,7 @@ $(document).ready(function(){
 				vertical:true,
 				asNavFor: '.featureSlider',
 				focusOnSelect: true,
-				autoplay:false,
+				autoplay:true,
 				draggable:false,
 			});
 			$('.featureSlider').slick({
@@ -252,7 +252,7 @@ $(document).ready(function(){
 		  setTimeout(function() {
 			// Initial height adjustment
 			adjustSliderHeight();
-		  }, 100);
+		  }, 500);
 		
 		  // Adjust height on slide change
 		  $('.TextSlider').on('afterChange', function(event, slick, currentSlide) {

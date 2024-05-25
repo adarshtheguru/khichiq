@@ -9,7 +9,7 @@
 		</div>
 	</div>
 </section>
-<section class="service-wrap">
+<section class="service-wrap faqpage">
 	<div class="container">
 		<div class="col-12">
 

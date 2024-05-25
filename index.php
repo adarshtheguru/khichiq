@@ -146,13 +146,13 @@
 					<div class="featureSliderWrapper">
 						<div class="featureSlider">
 							<div class="slide">
-								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
+								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
 								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
-								<img src="assets/images/iphone-mock-1.webp" alt="" class="img-responsive">
+								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
 								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
@@ -169,14 +169,14 @@
 			<div class="row">
 				<h2 class="text-center secTitle">Who Are <span class="sc">WE</span>?</h2>
 
-				<p class="para text-center text-white my-20">
+				<p class="para text-center text-white para1">
 				Welcome to Khichiq, where we go beyond just creating an app we re shaping a solution specifically for photographers, by
 				photographers who comprehend the distinctive hurdles of running a photography business. Explore our innovative platform,
 				streamline your work, amplify your results, revolutionising how you navigate and enhance your business management.
 				</p>
 
-				<h2 class="text-center secTitle">Our Purpose</h2>
-				<p class="para text-center text-white">"Focus on your art, we handle the rest. Manage every click, from client <br> bookings to project budgets, with Khichiq"</p>
+				<h2 class="text-center secTitle title2">Our Purpose</h2>
+				<p class="para text-center text-white  para2">"Focus on your art, we handle the rest. Manage every click, from client <br> bookings to project budgets, with Khichiq"</p>
 			</div>
 		</div>
 	</section>
@@ -322,7 +322,7 @@
 		<div class="container">
 			<div class="row">
 				<h2 class="secTitle text-center">Be a <span class="sc">KHICHIQUER!</span></h2>
-				<p class="para text-white text-center">
+				<p class="para text-white text-center para1">
 					Don't miss the opportunity to revolutionise how you manage your photography business. Join us on this exciting journey as we redefine the standard for photography business management.
 				</p>
 				<div class="text-center theme-btn-wrapper">

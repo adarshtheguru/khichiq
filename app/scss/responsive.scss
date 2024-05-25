@@ -258,7 +258,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 		top: -5px;
 	}
 	header {
-		padding: 5px 0;
+		padding: 5px 0 15px;
 		.nav-links {
 			padding: 10px 0;
 			top: 55px;
@@ -334,6 +334,7 @@ $background-color_3: rgba(255, 254, 254, 0.97);
 			text-transform: uppercase;
 			font-weight: 600;
 			font-size: 14px;
+			padding: 10px;
 		}
 	}
 	.home-banner {

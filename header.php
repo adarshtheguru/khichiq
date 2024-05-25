@@ -23,9 +23,10 @@
 							<div class="flex align-center">
 								<div class="flex align-center justify-center gap-x-10">
 									<div>
-										<img src="./assets/images/starlogo.svg" alt="Logo">
+										<img class="hidden-sm" src="./assets/images/khiciq-logo.webp" alt="Logo">
+										<img class="visible-sm" src="./assets/images/khiciq-logo-mob.webp" alt="Logo">
 									</div>
-									<div class="text-white">KHICHIQ <span class="madeinindia">| PROUDLY MADE IN INDIA</span></div>
+									<!-- <div class="text-white">KHICHIQ <span class="madeinindia">| PROUDLY MADE IN INDIA</span></div> -->
 								</div>
 							</div>
 						</a>
@@ -68,7 +69,9 @@
 			</div>
 			<div class="formdataWrapper text-center">
 				<div class="logo">
-					<img class="img-responsive" src="assets/images/khichiq-grouped.webp" alt="Khichiq">
+					<!-- <img class="img-responsive" src="assets/images/khichiq-grouped.webp" alt="Khichiq"> -->
+					<?php include "assets/images/khichiq-grouped.svg" ?>
+						
 				</div>
 				<div class="content">
 					Be among the first ones to experience it! <br> Scan QR to get the App
