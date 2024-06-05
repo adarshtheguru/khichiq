@@ -181,6 +181,7 @@ $(document).ready(function(){
 			infinite: true,
 			speed: 300,
 			slidesToShow: 3,
+			autoplay:true,
 			// centerMode: true,
 			// centerPadding: "10px",
 			responsive: [

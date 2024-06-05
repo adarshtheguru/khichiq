@@ -23,8 +23,8 @@
 							<div class="flex align-center">
 								<div class="flex align-center justify-center gap-x-10">
 									<div>
-										<img class="hidden-sm" src="./assets/images/khiciq-logo.webp" alt="Logo">
-										<img class="visible-sm" src="./assets/images/khiciq-logo-mob.webp" alt="Logo">
+										<img class="hidden-sm" src="./assets/images/khiciq-logo.svg" alt="Logo">
+										<img class="visible-sm" src="./assets/images/khiciq-logo-mob.svg" alt="Logo">
 									</div>
 									<!-- <div class="text-white">KHICHIQ <span class="madeinindia">| PROUDLY MADE IN INDIA</span></div> -->
 								</div>

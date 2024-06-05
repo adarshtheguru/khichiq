@@ -217,7 +217,10 @@ ol {
 	color: $color_2;
 }
 .text-white {
-	color: $color_3;
+	color: $white !important;
+}
+.text-lightblue{
+	color: $lb !important;
 }
 .text-orange {
 	color: $color_4;
@@ -592,10 +595,12 @@ section.padding {
 				.theme-btn{
 					color: $white;
 					background-color: $lb;
+					font-weight: 600;
 				}
 			}
 			.content{
 				color: #333333;
+				font-weight: 600;
 			}
 			.closingtxtWrapper{
 				display: none;
@@ -705,7 +710,7 @@ header.active {
 	color: $color_3 !important;
 	font-size: 14px;
 	padding: 10px 24px;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 16px;
 	cursor: pointer;
 }
@@ -834,7 +839,7 @@ footer {
 			.nav3{
 				.sm{
 					display: grid;
-					grid-template-columns: 20% auto;
+					grid-template-columns: 18% auto;
 					@media ($max640) {
 						display: unset;
 					}
@@ -866,6 +871,7 @@ footer {
 	font-family: $outfit;
 	text-align: center;
 	margin: 20px 0;
+	margin-bottom: 60px;
 	@media ($max640) {
 		font-size: 24px;
 		margin: 15px 0;
@@ -899,7 +905,7 @@ footer {
 			}
 			p{
 				font-size: 14px;
-				font-weight: 500;
+				font-weight: 600;
 			}
 		}
 	}
@@ -1023,9 +1029,12 @@ footer {
 // features 
 .features{
 	background-color: $black;
+	.container{
+		padding-bottom: 30px;
+	}
 	.secTitle{
 		margin-top: 0;
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 		@media ($max992) {
 			margin-bottom: 20px;
 		}
@@ -1051,7 +1060,8 @@ footer {
 			}
 
 			.title{
-				font-size: 32px;
+				// font-size: 32px;
+				font-size: 28px;
 				font-weight: 500;
 				line-height: 46px;
 				color: $white;
@@ -1068,7 +1078,7 @@ footer {
 			}
 			.hidedesc{
 				display: none;
-				padding: 0px 0 30px;
+				padding: 0px 0 40px;
 				color: #c4c4c4;
 				transition: all 0.3s ease-in-out;
 				@media ($max992) {
@@ -1085,7 +1095,7 @@ footer {
 					margin: 40px 0 10px;
 					.theme-btn{
 						color: $white;
-						font-weight: 500;
+						font-weight: 600;
 						font-size: 16px;
 					}
 				}
@@ -1243,10 +1253,15 @@ footer {
 				border-radius: 24px;
 				padding: 24px 24px;
 				display: grid;
-				gap: 18px 0;
+				align-items: flex-start;
+				gap: 20px 0;
 				min-width: 355px;
 				// height: auto;
-				min-height: 290px;
+				min-height: 250px;
+				@media ($max1440) {
+					gap: 20px 0;
+					min-height: 290px;
+				}
 				.clientinfo{
 					display: flex;
 					align-items: center;
@@ -1269,6 +1284,9 @@ footer {
 						}
 					}
 				}
+				// .content{
+				// 	min-height: 100px;
+				// }
 			}
 		}
 	}
@@ -1479,6 +1497,7 @@ footer {
 	font-weight: 400;
 	line-height: 28px;
 	text-align: left;
+	color: #C4C4C4;
 }
 .faqpage.service-wrap p{
 	color: #C4C4C4;
@@ -1492,6 +1511,7 @@ footer {
 }
 .service-wrap ul li{
 	position: relative;
+	color: #C4C4C4;
 }
 .service-wrap ul li:before{
 	content: '';
@@ -1500,7 +1520,7 @@ footer {
 	top: 10px;
 	width: 4px;
 	height: 4px;
-	background-color: #fff;
+	background-color: #C4C4C4;
 	border-radius: 100%;
 }
 // main css ends 

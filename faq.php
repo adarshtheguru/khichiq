@@ -13,7 +13,7 @@
 	<div class="container">
 		<div class="col-12">
 
-			<p>Welcome! Find answers to frequently asked questions here.</p>
+			<p class="text-white">Welcome! Find answers to frequently asked questions here.</p>
 
 <h3>Why Choose Khichiq?</h3>
 <p>Khichiq gives you everything you need to organize your photography business – managing orders & teammates, collaborating with free freelancers, and tracking payments. We aim to be the go-to app for running your photography business from anywhere, anytime.</p>
@@ -43,7 +43,7 @@
 <p>Our app supports various lead states, including New, Quote Sent, Rejected, and Archived.</p>
 
 <h3>What If I Need Help or Encounter Any Issues?</h3>
-<p>Feel free to reach out to our support team by sending a “Hi” to our WhatsApp number at <a href="tel:6362306263">6362306263</a> or emailing us at <a href="mailto:hello@khichiq.com">hello@khichiq.com</a>.</p>
+<p>Feel free to reach out to our support team by sending a “Hi” to our WhatsApp number at <a class="text-lightblue" href="tel:6362306263">6362306263</a> or emailing us at <a class="text-lightblue" href="mailto:hello@khichiq.com">hello@khichiq.com</a>.</p>
 		</div>
 	</div>
 </section>

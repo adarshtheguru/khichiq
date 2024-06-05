@@ -12,7 +12,7 @@
 <section class="service-wrap">
 	<div class="container">
 		<div class="col-12">
-			<p>Welcome! This Privacy Policy explains how we collect, use, and disclose information from and about users of our photography business management application ("KHICHIQ").</p>
+			<p class="text-white">Welcome! This Privacy Policy explains how we collect, use, and disclose information from and about users of our photography business management application ("KHICHIQ").</p>
 
 			<h3>Information We Collect</h3>
 			<p>We collect several types of information to provide and improve our Application:</p>
@@ -60,7 +60,7 @@
 			<p>We may update this Privacy Policy at any time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
 
 			<h3>Contact Us</h3>
-			<p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:hello@khichiq.com">hello@khichiq.com</a>.</p>
+			<p>If you have any questions about this Privacy Policy, please contact us at <a class="text-lightblue" href="mailto:hello@khichiq.com">hello@khichiq.com</a>.</p>
 		</div>
 	</div>
 </section>

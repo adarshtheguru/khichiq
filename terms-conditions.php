@@ -41,7 +41,7 @@
 			<p>We may update these Terms at any time. You are responsible for checking these Terms periodically for changes.</p>
 
 			<h3>Contact Us</h3>
-			<p>If you have any questions about these Terms, please contact us at <a href="mailto:hello@khichiq.com">hello@khichiq.com</a>.</p>
+			<p>If you have any questions about these Terms, please contact us at <a class="text-lightblue" href="mailto:hello@khichiq.com">hello@khichiq.com</a>.</p>
 
 		</div>
 	</div>
