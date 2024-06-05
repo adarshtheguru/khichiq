@@ -139,7 +139,7 @@ $(document).ready(function(){
 		});
 		$('.clicktoshare').click(function (x) {
 			x.preventDefault();
-			$('.clicktoshareWraper').hide()
+			// $('.clicktoshareWraper').hide();
 			$('.closingtxtWrapper').css('display', 'flex').fadeOut(5000);
 
 			var copyText = $(this).attr('data-url');

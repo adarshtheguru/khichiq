@@ -20,7 +20,7 @@
 								Manage your Orders, Events, <br class="visible-xs">Payments & <br class="hidden-xs"> Team effortlessly via App!
 							</div>
 							<div class="theme-btn-wrapper">
-								<a href="javascript:;" class="open-form theme-btn text-uppercase">GET FREE ACCESS</a>
+								<a href="javascript:;" class="open-form theme-btn hovtype1 text-uppercase">GET FREE ACCESS</a>
 							</div>
 							<div class="closingtxt">A platform designed for your GROWTH!</div>
 						</div>
@@ -90,7 +90,7 @@
 										Powerful team and order management tool designed for photographers
 									</div>
 									<div class="theme-btn-wrapper hidden-sm">
-										<a href="javascript:;" class="open-form theme-btn">TRY NOW!</a>
+										<a href="javascript:;" class="open-form theme-btn hovtype2">TRY NOW!</a>
 									</div>
 									<div class="visible-sm featuremob">
 										<img src="assets/images/feature-mob-1.webp" alt="iphone" class="img-responsive">
@@ -101,10 +101,10 @@
 								<div class="title">Seamless <br class="visible-xs"> Financial Management</div>
 								<div class="hidedesc">
 									<div class="content">
-										Track income, expenses, and taxes like a pro.
+										Easily track income, expenses, and taxes like a pro. Let’s take control of your business financials
 									</div>
 									<div class="theme-btn-wrapper hidden-sm">
-										<a href="javascript:;" class="open-form theme-btn">TRY NOW!</a>
+										<a href="javascript:;" class="open-form theme-btn hovtype2">TRY NOW!</a>
 									</div>
 									<div class="visible-sm featuremob">
 										<img src="assets/images/feature-mob-2.webp" alt="iphone" class="img-responsive">
@@ -115,10 +115,10 @@
 								<div class="title">Collaborate with <br class="visible-xs">	 Freelancers</div>
 								<div class="hidedesc">
 									<div class="content">
-										Unite! Find, Connect, and Thrive.
+										Unite! Find, Connect, and Thrive. Work with freelancers and collaborate to grow your business
 									</div>
 									<div class="theme-btn-wrapper hidden-sm">
-										<a href="javascript:;" class="open-form theme-btn">TRY NOW!</a>
+										<a href="javascript:;" class="open-form theme-btn hovtype2">TRY NOW!</a>
 									</div>
 									<div class="visible-sm featuremob">
 										<img src="assets/images/feature-mob-3.webp" alt="iphone" class="img-responsive">
@@ -129,10 +129,10 @@
 								<div class="title">Business Analyatics <br class="visible-xs"> on your Fingertips</div>
 								<div class="hidedesc">
 									<div class="content">
-										Say goodbye to boring spreadsheets and hello to insightful business analytics
+										Say goodbye to boring spreadsheets and hello to valuable insights into your photography business
 									</div>
 									<div class="theme-btn-wrapper hidden-sm">
-										<a href="javascript:;" class="open-form theme-btn">TRY NOW!</a>
+										<a href="javascript:;" class="open-form theme-btn hovtype2">TRY NOW!</a>
 									</div>
 									<div class="visible-sm featuremob">
 										<img src="assets/images/feature-mob-4.webp" alt="iphone" class="img-responsive">
@@ -146,16 +146,16 @@
 					<div class="featureSliderWrapper">
 						<div class="featureSlider">
 							<div class="slide">
-								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
+								<img src="assets/images/iphone-desk-1.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
-								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
+								<img src="assets/images/iphone-desk-2.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
-								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
+								<img src="assets/images/iphone-desk-3.webp" alt="" class="img-responsive">
 							</div>
 							<div class="slide">
-								<img src="assets/images/iphone-mock-2.webp" alt="" class="img-responsive">
+								<img src="assets/images/iphone-desk-4.webp" alt="" class="img-responsive">
 							</div>
 						</div>
 					</div>
@@ -326,7 +326,7 @@
 					Don't miss the opportunity to revolutionise how you manage your photography business. Join us on this exciting journey as we redefine the standard for photography business management.
 				</p>
 				<div class="text-center theme-btn-wrapper">
-					<a href="javascript:;" class="theme-btn open-form text-center text-white text-bold">JOIN COMMUNITY</a>
+					<a href="javascript:;" class="theme-btn hovtype2 open-form text-center text-white text-bold">JOIN COMMUNITY</a>
 				</div>
 			</div>
 		</div>
@@ -375,7 +375,7 @@
 					</div>
 				</div>
 				<div class="text-center theme-btn-wrapper">
-					<a href="./faq.php" target="_blank" class="theme-btn text-center text-white text-bold">VISIT FAQs</a>
+					<a href="./faq.php" target="_blank" class="theme-btn text-center text-white text-bold hovtype2">VISIT FAQs</a>
 				</div>
 			</div>
 		</div>
