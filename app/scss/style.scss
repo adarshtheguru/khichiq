@@ -705,7 +705,7 @@ header.active {
 	}
 }
 .enquire-btn {
-	background: #4a8af8;
+	background: #4a8af8 !important;
     border-radius: 19px;
 	color: $color_3 !important;
 	font-size: 14px;
@@ -713,13 +713,13 @@ header.active {
 	font-weight: 600;
 	line-height: 16px;
 	cursor: pointer;
-	&.hovtype1{
-		transition: all 0.8s ease-in;
-		&:hover{
-			background: linear-gradient(123deg, #4A8AF8 -0.29%, #4A8AF8 39.45%, #AAC9FF 45.77%, #4A8AF8 52.29%, #4A8AF8 101.23%);
-			color: $white;
-		}
-	}
+	// &.hovtype1{
+	// 	transition: all 0.8s ease-in;
+	// 	&:hover{
+	// 		background: linear-gradient(123deg, #4A8AF8 -0.29%, #4A8AF8 39.45%, #AAC9FF 45.77%, #4A8AF8 52.29%, #4A8AF8 101.23%);
+	// 		color: $white;
+	// 	}
+	// }
 }
 .eq-height-row {
 	display: -webkit-box;
@@ -891,13 +891,13 @@ footer {
 	border: 1px solid #4A8AF8;
 	padding: 14px 32px;
 	border-radius: 26px;
-	&.hovtype1{
-		transition: all 0.6s ease-in-out;
-		&:hover{
-			background: linear-gradient(123deg, #4A8AF8 -0.29%, #4A8AF8 39.45%, #AAC9FF 45.77%, #4A8AF8 52.29%, #4A8AF8 101.23%);
-			color: $white;
-		}
-	}
+	// &.hovtype1{
+	// 	transition: all 0.6s ease-in-out;
+	// 	&:hover{
+	// 		background: linear-gradient(123deg, #4A8AF8 -0.29%, #4A8AF8 39.45%, #AAC9FF 45.77%, #4A8AF8 52.29%, #4A8AF8 101.23%);
+	// 		color: $white;
+	// 	}
+	// }
 	&.hovtype2{
 		transition: all 0.3s ease-in-out;
 		&:hover{
@@ -994,9 +994,12 @@ footer {
 				}
 			}
 			.theme-btn-wrapper{
-				margin: 40px 0 30px;
+				margin: 30px 0 20px;
+				@media ($max640) {
+					margin: 20px 0 10px;
+				}
 				.theme-btn{
-					max-width:200px;
+					// max-width:220px;
 					padding: 14px 24px;
 					color:$white;
 					background-color: #4A8AF8;

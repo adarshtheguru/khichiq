@@ -20,7 +20,7 @@
 								Manage your Orders, Events, <br class="visible-xs">Payments & <br class="hidden-xs"> Team effortlessly via App!
 							</div>
 							<div class="theme-btn-wrapper">
-								<a href="javascript:;" class="open-form theme-btn hovtype1 text-uppercase">GET FREE ACCESS</a>
+								<a href="javascript:;" class="open-form theme-btn btn btn-hover hovtype1 text-uppercase">GET FREE ACCESS</a>
 							</div>
 							<div class="closingtxt">A platform designed for your GROWTH!</div>
 						</div>
